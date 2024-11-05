@@ -42,7 +42,7 @@ function calculateLDU() {
 
     displayStep("Original Matrix", matrix);
 
-    // LDU factorization with detailed steps
+    // LDU factorization with more detailed steps
     for (let i = 0; i < size; i++) {
         // Diagonal element in D
         D[i][i] = matrix[i][i];
