@@ -19,7 +19,7 @@ nav {
     /* background: linear-gradient(to right, #FFFFFF, #4A90E2); */
 }
 header{
-    background: url('/cool-background2.png');
+    background: url('cool-background2.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -51,7 +51,7 @@ main {
     margin-top: 12vh;
 
     height: 140vh;
-    background: url('/5687036.jpg');
+    background: url('5687036.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;

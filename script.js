@@ -47,7 +47,6 @@ function submitMatrix() {
         }
         matrix.push(row);
     }
-
     console.log("Initial Matrix:", matrix);
     displayMatrix(matrix, "Initial Matrix");
 
