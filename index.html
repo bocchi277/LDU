@@ -23,39 +23,35 @@
                     <a href="">Group Project</a>
                 </div>
                 <ul>
-                    <li><a href="#main">LDU Calculator</a></li>
+                    <li><a href="#main-header">LDU Calculator</a></li>
                 </ul>
             </nav>
             <section class="section1">
                 <div class="box2">
                     <h2>Welcome to the LDU Factorization Calculator</h2>
                     <p>Calculate and understand the LDU factorization of any matrix.</p>
-                    <button><a href="#main">Click to calculate</a></button>
+                    <button><a href="#main-header">Click to calculate</a></button>
                 </div>
             </section>
     </header>
 
-    <main id="main">
+    <main>
         <div id="main-header">
             <h2>Welcome to the LDU Factorization Calculator</h2>
             <p>Calculate and understand the LDU factorization of any matrix.</p>
         </div>
-        <div>
-            <form id="matrix-form">
-                <input type="number" id="matrix-dimension" class="dimension-input" placeholder="Matrix dimension"
-                    min="1">
-                <button onclick="generateMatrixInputs()" id="gen-matrix">Generate Matrix</button>
-                <div id="matrix-container" class="matrix-container"></div>
-                <button id="submit-matrix" class="submit-button" onclick="submitMatrix()" style="display: none;">Submit
-                    Matrix</button>
-
-            </form>
+        <div id="matrixform">
+            <input type="number" id="matrix-dimension" class="dimension-input" placeholder="Matrix dimension" min="1">
+            <button onclick="generateMatrixInputs()" id="gen-matrix">Generate Matrix</button>
+            <div id="matrix-container" class="matrix-container"></div>
+            <button id="submit-matrix" class="submit-button" onclick="submitMatrix()" style="display: none;">Submit
+                Matrix</button>
         </div>
     </main>
-    <!-- <section id="result">
+    <section id="result">
         <h2>Result</h2>
         <div id="ldu-steps"></div>
-    </section> -->
+    </section>
 
     <script src="script.js"></script>
 </body>

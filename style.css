@@ -104,7 +104,7 @@ p {
     transform: translate(0px, 10px);
 
 }
-#matrix-form {
+#matrixform {
     height: 40vh;
     /* background-color: rgb(165, 158, 158); */
 }
@@ -215,8 +215,8 @@ button:hover {
     padding: 5px;
     margin: 2px;
     border: 1px solid #333;
-    background-color: #e9ecef;
-    font-weight: bold;
+    background-color: #c1bebe;
+    font-weight: 600;
 }
 
 #gen-matrix {
@@ -233,5 +233,15 @@ button:hover {
 }
 #result h2{
     margin-top: 10vh;
+    height: 10vh;
+    color: #412bd1;
 }
-
+#steps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#steps-container h3{
+    color: #da1010;
+}
