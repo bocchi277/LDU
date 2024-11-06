@@ -55,7 +55,7 @@ function submitMatrix() {
     for (let k = 0; k < dimension - 1; k++) {
         const eliminationMatrix = createEliminationMatrix(currentMatrix, dimension, k);
         eliminationMatrices.push(eliminationMatrix); // Store elimination matrix
-        displayMatrix(eliminationMatrix, `Elimination Matrix for Row ${k + 1}`);
+        displayMatrix(eliminationMatrix, `Elimination Matrix for Column ${k + 1}`);
 
         // Multiply the current matrix by the elimination matrix to zero out elements below the pivot
         currentMatrix = multiplyMatrices(eliminationMatrix, currentMatrix);
